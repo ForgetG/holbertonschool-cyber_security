@@ -18,3 +18,9 @@ Tasks:
         5 You should Display the process information associated with each socket.
 
         The task should use iproute2 version 5.x
+
+ 2. Firewall rules: Your network's first line of defense! 
+    2-incoming_connections.sh :
+        Write a bash script that allow only incoming connections with the TCP protocol through port 80.
+
+    You should run your code as privileged user. root or sudoers.
