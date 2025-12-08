@@ -5,3 +5,16 @@ Tasks:
         Write a bash script that shows you the last 5 logins session for users with their corresponding dates and times.
 
     You should run your code as privileged user. root or sudoers.
+
+ 1. Shows your Linux connections, not your social     status!
+    1-active-connections.sh:
+    
+    Write a bash script that display a list of network socket connections
+
+        1 You should run your code as privileged user root or sudoers.
+        2 You should Show all sockets, including listening and non-listening sockets.
+        3 You should Display numerical addresses (IP addresses and port numbers).
+        4 You should Limit the output to TCP sockets.
+        5 You should Display the process information associated with each socket.
+
+        The task should use iproute2 version 5.x
