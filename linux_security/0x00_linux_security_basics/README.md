@@ -31,3 +31,14 @@ Tasks:
 
     You should run your code as privileged user. root or sudoers.
     You should use the verbose mode.
+
+4. See what's talking, and who's listening!
+    4-network_services.sh :
+    Write a bash script that list services, their current state, and their corresponding ports.
+
+    1 You should run your code as privileged user. root or sudoers.
+    2 You should show the PID and name of the program to which each socket belongs.
+    3 You should show numerical addresses (IP addresses and port numbers).
+    4 You should display listening sockets.
+    5 You should display TCP sockets.
+    6 You should display UDP sockets.
