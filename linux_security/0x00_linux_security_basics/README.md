@@ -48,3 +48,10 @@ Tasks:
         Write a bash script that initiate a system audit for scanning the machine.
 
     You should run your code as privileged user. `root` or `sudoers`.
+
+6. Your eyes and ears on the network!
+    6-capture_analyze.sh :
+        Write a bash script that capture and analyze network traffic going through the system.
+
+    You should run your code as privileged user. root or sudoers.
+    You should limit the number of packets captured to 5
