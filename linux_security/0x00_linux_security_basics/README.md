@@ -24,3 +24,10 @@ Tasks:
         Write a bash script that allow only incoming connections with the TCP protocol through port 80.
 
     You should run your code as privileged user. root or sudoers.
+
+3. Securing your network, one rule at a time!
+    3-firewall_rules.sh :
+        Write a bash script that list all the rules in the security table of the firewall.
+
+    You should run your code as privileged user. root or sudoers.
+    You should use the verbose mode.
