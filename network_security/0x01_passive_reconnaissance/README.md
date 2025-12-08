@@ -11,3 +11,7 @@ tasks:
  1. A record
     1-a_record.sh :
     Write a bash script that retrieve the A record of a specified domain using nslookup command
+
+ 2. MX Record
+    2-mx_record.sh :
+    Write a bash script that retrieve the MX record of a specified domain using nslookup command
