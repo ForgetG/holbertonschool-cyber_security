@@ -55,3 +55,10 @@ Tasks:
 
     You should run your code as privileged user. root or sudoers.
     You should limit the number of packets captured to 5
+
+ 7. So fast, it'll make your router sweat!
+    7-scan.sh :
+        Write a bash script that scan a subnetwork to discover live host using scan.
+
+    You should run your code as privileged user root or sudoers.
+    Your script should accept a subnetwork as an arguments $1.
