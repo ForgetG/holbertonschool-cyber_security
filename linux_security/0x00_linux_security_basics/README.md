@@ -42,3 +42,9 @@ Tasks:
     4 You should display listening sockets.
     5 You should display TCP sockets.
     6 You should display UDP sockets.
+
+5. Where it talks, we all listen!
+    5-audit_system.sh :
+        Write a bash script that initiate a system audit for scanning the machine.
+
+    You should run your code as privileged user. `root` or `sudoers`.
