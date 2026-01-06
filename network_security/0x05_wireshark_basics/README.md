@@ -4,4 +4,5 @@
  1. TCP SYN scan
  2. TCP Connect() scan
  3. TCP FIN scan
+ 4. TCP ping sweeps
  
