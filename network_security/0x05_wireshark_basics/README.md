@@ -5,4 +5,5 @@
  2. TCP Connect() scan
  3. TCP FIN scan
  4. TCP ping sweeps
+ 5. UDP port scan
  
