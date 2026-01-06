@@ -6,4 +6,5 @@
  3. TCP FIN scan
  4. TCP ping sweeps
  5. UDP port scan
+ 6. UDP ping sweeps
  
