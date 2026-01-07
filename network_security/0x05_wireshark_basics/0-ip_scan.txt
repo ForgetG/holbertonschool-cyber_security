@@ -1,1 +1,1 @@
-(ip && !(tcp || udp || icmp)) || (icmp.type == 3 && icmp.code == 2)
+(ip && !(tcp || udp)) || (icmp.type == 3 && icmp.code == 2)
