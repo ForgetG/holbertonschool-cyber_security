@@ -11,3 +11,6 @@
 
  2. Catch The FLAG #1
    - Use task1 to change password and get the flag.
+
+ 3. Stealing Cookies from Managers is delicious !
+   - Create a JavaScript payload that exploits Cross-Site Scripting (XSS) vulnerabilities within a ticketing system.
