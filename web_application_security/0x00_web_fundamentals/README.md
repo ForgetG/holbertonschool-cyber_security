@@ -20,3 +20,6 @@
 
  5. Can we trust our Managers ?
    - Write a text file containing the HTTP Request to exploit the potential SQL Injection in the ‘Ticket ID’ parameter.
+
+ 6. Catch The FLAG #3
+   - Use task5 to sqldump and get admin's credentials.
