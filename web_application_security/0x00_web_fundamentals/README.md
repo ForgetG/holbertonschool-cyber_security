@@ -17,3 +17,6 @@
 
  4. Catch The FLAG #2
    - Use task3 to get access to support page.
+
+ 5. Can we trust our Managers ?
+   - Write a text file containing the HTTP Request to exploit the potential SQL Injection in the ‘Ticket ID’ parameter.
