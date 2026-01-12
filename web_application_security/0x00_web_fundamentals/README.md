@@ -23,3 +23,6 @@
 
  6. Catch The FLAG #3
    - Use task5 to sqldump and get admin's credentials.
+
+ 7. Why would an Admin have such a function ?
+   - Write a payload that exploits poor input validation to achieve Remote Code Execution (RCE).
