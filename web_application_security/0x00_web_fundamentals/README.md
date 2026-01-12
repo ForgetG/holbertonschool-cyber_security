@@ -26,3 +26,6 @@
 
  7. Why would an Admin have such a function ?
    - Write a payload that exploits poor input validation to achieve Remote Code Execution (RCE).
+
+ 8. Catch The FLAG #4
+   - Get access to root shell of target machine, find flag in /root.
