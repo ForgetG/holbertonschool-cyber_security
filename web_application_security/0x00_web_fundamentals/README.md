@@ -14,3 +14,6 @@
 
  3. Stealing Cookies from Managers is delicious !
    - Create a JavaScript payload that exploits Cross-Site Scripting (XSS) vulnerabilities within a ticketing system.
+
+ 4. Catch The FLAG #2
+   - Use task3 to get access to support page.
