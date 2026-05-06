@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 require 'net/http'
 require 'uri'
 require 'json'
@@ -8,24 +7,23 @@ require 'json'
 # @param url [String] target URL
 # @param body_params [Hash] parameters to send in body
 def post_request(url, body_params)
-  uri = URI.parse(url)
+    uri = URI(url)
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = uri.scheme == 'https'
 
-  http = Net::HTTP.new(uri.host, uri.port)
-  http.use_ssl = uri.scheme == 'https'
+    request = Net::HTTP::Post.new(uri.path, {
+        'Content-Type' => 'application/json'
+    })
+    request.body = body_params.to_json
 
-  request = Net::HTTP::Post.new(uri.request_uri)
-  request['Content-Type'] = 'application/json'
-  request.body = JSON.generate(body_params)
+    response = http.request(request)
 
-  response = http.request(request)
-
-  puts "Response status: #{response.code} #{response.message}"
-  puts 'Response body:'
-
-  begin
-    json_body = JSON.parse(response.body)
-    puts JSON.pretty_generate(json_body)
-  rescue JSON::ParserError
-    puts response.body
-  end
+    puts "Response status: #{response.code} #{response.message}"
+    puts "Response body:"
+    parsed_body = JSON.parse(response.body)
+    if parsed_body.empty?
+        puts "{}"
+    else
+        puts JSON.pretty_generate(parsed_body)
+    end
 end
