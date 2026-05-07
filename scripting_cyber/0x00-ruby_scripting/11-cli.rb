@@ -29,7 +29,7 @@ def list_tasks
   else
     puts 'Task:'
     tasks.each do |task|
-      puts "#{task},"
+      puts "#{task}"
     end
   end
 end
