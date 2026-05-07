@@ -27,7 +27,7 @@ def list_tasks
   if tasks.empty?
     puts 'No tasks found.'
   else
-    puts 'Tasks:'
+    puts 'Task:'
     tasks.each do |task|
       puts "#{task},"
     end
